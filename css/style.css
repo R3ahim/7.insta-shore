@@ -248,11 +248,13 @@ img {
 /* ther answer style added */
 .answering{
   display: flex;
+  
 }
 .answer{
   width: 50%;
   margin: 20px;
   border: 2px solid;
+  border-radius: 20px;
   padding: 30px;
 }
 
