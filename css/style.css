@@ -245,6 +245,17 @@ img {
   display: none;
 }
 
+/* ther answer style added */
+.answering{
+  display: flex;
+}
+.answer{
+  width: 50%;
+  margin: 20px;
+  border: 2px solid;
+  padding: 30px;
+}
+
 @media only screen and (max-width: 992px) {
   #posts {
     grid-template-columns: repeat(2, 1fr);
@@ -254,5 +265,13 @@ img {
 @media only screen and (max-width: 576px) {
   #posts {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .answering{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .answer{
+    width: 90%;
   }
 }
